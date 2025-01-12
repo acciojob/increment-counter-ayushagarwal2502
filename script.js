@@ -1,6 +1,6 @@
 //your JS code here. If required.
 
-let count=document.getElementById("counter").innerHTML;
+let count=0;
 function onlick(){
   alert(count); 
 
@@ -8,7 +8,7 @@ function onlick(){
 	 document.getElementById("counter").innerHTML=count;
 	
 } 
-onlick();
+
 
 
 
